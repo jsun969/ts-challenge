@@ -1,0 +1,11 @@
+{
+  "name": "@jsun969/ts-challenge",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write \"**/*.ts\""
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}

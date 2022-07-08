@@ -8,7 +8,7 @@ type Z = Promise<Promise<string | number>>;
 type cases = [
   Expect<Equal<MyAwaited<X>, string>>,
   Expect<Equal<MyAwaited<Y>, { field: number }>>,
-  Expect<Equal<MyAwaited<Z>, string | number>>
+  Expect<Equal<MyAwaited<Z>, string | number>>,
 ];
 
 // @ts-expect-error

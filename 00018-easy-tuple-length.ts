@@ -16,7 +16,7 @@ type cases = [
   // @ts-expect-error
   Length<5>,
   // @ts-expect-error
-  Length<'hello world'>
+  Length<'hello world'>,
 ];
 
 // ============= Your Code Here =============

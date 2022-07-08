@@ -14,7 +14,7 @@ type cases = [
       MyExclude<string | number | (() => void), Function>,
       Exclude<string | number | (() => void), Function>
     >
-  >
+  >,
 ];
 
 // ============= Your Code Here =============

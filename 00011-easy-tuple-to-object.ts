@@ -14,7 +14,7 @@ type cases = [
         'model Y': 'model Y';
       }
     >
-  >
+  >,
 ];
 
 // @ts-expect-error
